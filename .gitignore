@@ -1,0 +1,10 @@
+# pycharm
+.idea/
+
+# virtualenv
+venv
+
+# logs
+*.log
+
+# data
