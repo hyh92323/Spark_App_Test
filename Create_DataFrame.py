@@ -12,3 +12,5 @@ spark = SparkSession.builder.appName("Python Spark SQL basic example") \
 
 df = spark.read.csv("data\household_power_consumption.txt")
 df.show()
+
+df.printSchema()
